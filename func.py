@@ -1,2 +1,2 @@
-def square(x: int) -> int:
+def square(x):
   return x*x
