@@ -17,6 +17,7 @@ class TestSampleMethods(unittest.TestCase):
         self.assertEqual(square(0), 0)
         self.assertEqual(square(6), 36)
         self.assertEqual(square(-3), 9)
+        self.assertEqual(square(-1), 1)
 
 if __name__ == '__main__':
     unittest.main()
